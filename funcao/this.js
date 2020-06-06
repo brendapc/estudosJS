@@ -28,7 +28,7 @@ function Pessoa() {
         console.log(this.idade)
     }, 1000)//milissegundos
 }
-new Pessoa */
+new Pessoa 
 
 /*
 
