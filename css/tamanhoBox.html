@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <title>Tamanho Box</title>
     <style>
+        *{
+            box-sizing: border-box; /* pode ser aplicado no seletor universal mas não no body ou no html por exemplo por esse atrib não é herdado */
+        }
         body {
             font-size: 45px;
+        }
+        div{
+            background-color: deeppink;
+            width: 100%;
+            height: 300px;
+            padding: 100px;
+            border: solid 20px;
+            box-sizing: border-box; /* da borda pra dentro conta pra altura e lagura (incluindo o padding e borda) */
+            box-sizing: content-box; /* conteudo 100% da largura, o padding e o resto estrapolam o 100%*/
         }
     </style>
 </head>
