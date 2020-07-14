@@ -10,7 +10,22 @@
     <div>Segundo</div>
     <div class="terceiro ultimo">.terceiro .ultimo</div>
     <script>              
-        // ...
+        document.getElementById("primeiro").classList.add('destaque')
+
+        /* diferentes maneiras de selecionar collections e transformar em array, para adicionar/remover a classe "destaque" aos elemento */
+
+        const divs = document.getElementsByTagName('div')
+
+        /* 1 */Array.from(divs).forEach(e => e.classList.remove('destaque'))
+
+        /* 2 */const divsArray = [...divs]
+        divsArray.forEach(e => e.classList.add('destaque'))
+
+        /*  3, sem transformar em array, mas pegando todos os que tem a classe 'ultimo' e fazer alguma ação */
+        const ultimosElementos = document.getElementsByClassName('ultimo')
+        for(let e of ultimosElementos){
+            e.classList.remove('destaque')        
+        }
     </script>
 </body>
 </html>
