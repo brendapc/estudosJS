@@ -17,7 +17,16 @@
         </ul>
     </div>
     <script>
-        // ...
+        const lista = document.querySelector('div ul[destino="escritorio"]')
+        lista.childNodes
+        lista.getAttribute('destino')
+        lista.hasAttribute('destino') //true
+        lista.setAttribute('destino', 'empresa')// atrib, valor
+        lista.removeAttribute('destino')
+        lista.dataset
+        lista.dataset.urgencia = 4
+
+        
     </script>
 </body>
 
