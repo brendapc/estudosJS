@@ -9,9 +9,26 @@
 
 <body class="conteudo exercicio">
     <div>
-        <a href="https://google.com.br">Google</a>
+        <a espera-ai href="https://google.com.br" >Google</a>
+        <!-- pode inserir o - onclick="navegarEm5s(event)" - passando o evento ou usar o query selector no JS -->
     </div>
     <script>
-        // ...
+        function navegarEm5s(e){
+            e.preventDefault()
+            console.log('saindo em 5s...')
+            setTimeout(()=>{
+                const link = e.target
+                window.location.href = link.href
+            }, 5000)
+        }
+
+        /* onclick: */
+    /*  const a = document.querySelector('a')
+        a.onclick = navegarEm5s
+    */
+        /* or */
+
+        const a = document.querySelector('[espera-ai]')
+        a.onclick = navegarEm5s
     </script>
 </body>
