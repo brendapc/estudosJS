@@ -29,4 +29,13 @@ app.post('/upload', (req,res)=>{
         res.end('concluido com sucesso')
     })
 })
+
+app.post('/formulario', (req, res)=>{
+    res.send({
+        ...req.body,
+        id: 3
+    })
+})
+
+
 app.listen(8080, ()=> console.log('executando...'))
