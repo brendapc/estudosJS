@@ -9,8 +9,29 @@
     <div id="primeiro">#primeiro</div>
     <div>Segundo</div>
     <div class="terceiro ultimo"><span wb-attrib>.terceiro .ultimo</span></div>
-    <script>              
-        // ...
+    <script> 
+    /* o query selector recebe qualquer coisa: id, class, etc ... */             
+        document.querySelector('#primeiro').classList.add('destaque')
+        /* query selector (singular) retorna o primeiro elemento que cumpre os requisistos 
+        
+        e o quey selector all retorna todos*/
+
+        const destacar = seletor => document.querySelectorAll(seletor).forEach(e=> e.classList.add('destaque'))
+        const removerDestaque = seletor => document.querySelectorAll(seletor).forEach(e=>e.classList.remove('destaque'))
+
+        destacar('div')  
+
+        removerDestaque('*')
+        destacar(':not(#primeiro)')
+
+        removerDestaque('*')
+        destacar(':nth-child(1)')
+        
+        removerDestaque('*')
+        destacar('div:nth-child(1)') /* primeiro elemento do tipo div */
+
+        removerDestaque('*')
+        destacar('[wb-attrib')
     </script>
 </body>
 </html>

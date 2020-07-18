@@ -31,7 +31,21 @@
         <button>Pesquisar</button>
     </form>
     <script>
-        // ...
+        /* achando forms */
+        document.forms
+        document.forms[0]
+
+        document.getElementsByName('pesquisa')
+        document.getElementsByName('pesquisa') /* retorna uma nodelist */
+        document.getElementsByTagName('form') /* vem uma html collection */
+
+        document.pesquisa /* o elemento com name pesquisa */
+        document.pesquisa.q
+
+        document.pesquisa.q.value = 'Linux'
+
+        document.pesquisa.hl.value= 'en-us'
+
     </script>
 </body>
 
