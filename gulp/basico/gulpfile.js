@@ -12,7 +12,10 @@ const antes2 = cb =>{
 }
 
 function copiar(callback){
-    console.log('tarefa de copiar')
+    gulp.src(['pastaA/arquivo1.txt','pastaA/arquivo2.txt'])
+    .pipe(gulp.dest('pastaB')) /* manipulation (pipeline) */
+    /* .pipe(cortarPelaMetade())
+    .pipe(deixarPretoEBranco())   exemplos... */
     return callback()
 }
 
