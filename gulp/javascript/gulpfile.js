@@ -17,5 +17,10 @@ function padrao(cb){
 
     return cb()
 }
+function fim(cb){
+   console.log('o return pode ficar aqui!')
+   
+   return cb()
+}
+exports.default = series(padrao, fim)
 
-exports.default = series(padrao)
