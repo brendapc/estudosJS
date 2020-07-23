@@ -76,9 +76,32 @@
   !*** ./src/assets/css/estilo.css ***!
   \***********************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/assets/css/estilo.css?");
+eval("throw new Error(\"Module build failed: ModuleBuildError: Module build failed: TypeError: loaderContext.getResolve is not a function\\n    at getWebpackImporter (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\sass-loader\\\\dist\\\\utils.js:274:37)\\n    at Object.loader (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:42:61)\\n    at C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:252:20\\n    at C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at runSyncOrAsync (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:143:3)\\n    at iterateNormalLoaders (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:232:2)\\n    at Array.<anonymous> (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:205:4)\\n    at Storage.finished (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\enhanced-resolve\\\\lib\\\\CachedInputFileSystem.js:55:16)\\n    at C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\enhanced-resolve\\\\lib\\\\CachedInputFileSystem.js:91:9\\n    at C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\graceful-fs\\\\graceful-fs.js:123:16\\n    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)\");\n\n//# sourceURL=webpack:///./src/assets/css/estilo.css?");
+
+/***/ }),
+
+/***/ "./src/assets/index.js":
+/*!*****************************!*\
+  !*** ./src/assets/index.js ***!
+  \*****************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_estilo_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/estilo.css */ \"./src/assets/css/estilo.css\");\n/* harmony import */ var _css_estilo_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_estilo_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/index.scss */ \"./src/assets/scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\n\n//# sourceURL=webpack:///./src/assets/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/scss/index.scss":
+/*!************************************!*\
+  !*** ./src/assets/scss/index.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed: ModuleBuildError: Module build failed: TypeError: loaderContext.getResolve is not a function\\n    at getWebpackImporter (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\sass-loader\\\\dist\\\\utils.js:274:37)\\n    at Object.loader (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:42:61)\\n    at C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:252:20\\n    at C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at runSyncOrAsync (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:143:3)\\n    at iterateNormalLoaders (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:232:2)\\n    at Array.<anonymous> (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:205:4)\\n    at Storage.finished (C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\enhanced-resolve\\\\lib\\\\CachedInputFileSystem.js:55:16)\\n    at C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\enhanced-resolve\\\\lib\\\\CachedInputFileSystem.js:91:9\\n    at C:\\\\Users\\\\Brend\\\\OneDrive\\\\Área de Trabalho\\\\javasriptmoderno\\\\webpack\\\\node_modules\\\\graceful-fs\\\\graceful-fs.js:123:16\\n    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)\");\n\n//# sourceURL=webpack:///./src/assets/scss/index.scss?");
 
 /***/ }),
 
@@ -102,7 +125,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pessoa__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\");\n/* harmony import */ var _assets_css_estilo_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/css/estilo.css */ \"./src/assets/css/estilo.css\");\n/* harmony import */ var _assets_css_estilo_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_css_estilo_css__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n\r\nconst atendente = new _pessoa__WEBPACK_IMPORTED_MODULE_0__[\"default\"]\r\nconsole.log(atendente.cumprimentar())\n\n//# sourceURL=webpack:///./src/principal.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pessoa__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\");\n/* harmony import */ var _assets__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets */ \"./src/assets/index.js\");\n\r\n\r\n\r\nconst atendente = new _pessoa__WEBPACK_IMPORTED_MODULE_0__[\"default\"]\r\nconsole.log(atendente.cumprimentar())\n\n//# sourceURL=webpack:///./src/principal.js?");
 
 /***/ })
 
