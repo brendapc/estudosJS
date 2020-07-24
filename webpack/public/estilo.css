@@ -1,1 +1,7 @@
-body{background-color:blue}
+body{
+    background-color: blue;
+    background-image: url(9d67c033dda02fd97f695e844b06ab23.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
