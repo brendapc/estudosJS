@@ -49,6 +49,26 @@
     </form>
 
     <script>
-        // ...
-    </script>
+        $('#feira').addClass('destaque').removeClass('destaque')
+        $('li').addClass('destaque')
+        $('[wm-obrigatorio]').removeClass('destaque')
+        $('li.opcional').removeClass('destaque')
+        $('div p span').addClass('destaque')/* dentro da div tem um p e dentro do p um span */
+   
+        /* exclusivos jQuery */
+        $('li:first').css('border', 'solid 3px purple',)
+        $('li:odd').css('border','solid 10px orange')
+        $('li:gt(1)').css('border','solid 10px red')/*  greater than 1 */
+        $('li:not(:last)').css('border','none')
+        $('li:contains("r")').css('background-color','black')
+   
+        /* formulários */
+
+        $('form *').hide(5000)
+        $('form :text').show(5000)
+        $('form :password').show(5000)
+        $('form :checkbox').show(5000)
+        $('form :radio').show(5000)
+        $('form :file').show(5000)
+   </script>
 </body>
