@@ -14,6 +14,16 @@
     <div>2</div>
 
     <script>
-        // ...
+        // $ ou jQuery
+        $('div').hide(5000).show(5000).fadeOut(5000) /* funcinam como funções de um objeto externo(inventado) que contém o nó */
+        console.log($('div').get(0)) /* a função get pega o nó puro da DOM, por isso não é possivel utilizar qualquer função de show,hide, fadein/out */
+        console.log($.inArray(3,[1,2,3,4]))/* o 3 esta no array? em qual posição (-1 para não está, num da posição se está*/
+    
+        $.fn.fundoVerde = function () {
+            this.css('background-color', 'green')
+            return this
+        }
+        $('body').fundoVerde().fadeOut(1000)
+    
     </script>
 </body>
