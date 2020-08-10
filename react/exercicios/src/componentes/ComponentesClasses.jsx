@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 export default class Saudacao extends Component{
 
     setTipo(e){
-        console.log(e.target.value)
+        this.props.tipo = e.target.value /* não é possivel alterar pois os parametros recebidos(props) são só leitura */
     }
 
     render(){
