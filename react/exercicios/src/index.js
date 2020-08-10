@@ -5,9 +5,10 @@ import ReactDOM from 'react-dom';
 /* import Primeiro from './componentes/Primeiro' */
 /* import BomDia from './componentes/BomDia'*/
 import Saudacao from './componentes/ComponentesClasses';
+import Pai from './componentes/Pai'
 
 ReactDOM.render(
     <div>
-        <Saudacao tipo="Bom Dia" nome="João"/>
+        <Pai nome="Zé" sobrenome="Pereira"/>
     </div>
     , document.getElementById('root'))
