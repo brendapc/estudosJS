@@ -1,13 +1,16 @@
 import React, {Component} from 'react'
 
 export default class Saudacao extends Component{
-
+    state = {
+        tipo: "Fala",
+        nome: "Brenda"
+    }
     setTipo(e){
-        this.props.tipo = e.target.value /* não é possivel alterar pois os parametros recebidos(props) são só leitura */
+        this.setState({tipo: e.target.value})
     }
 
     render(){
-        const {tipo, nome} = this.props
+        const {tipo, nome} = this.state
         
         return(
             <div>
