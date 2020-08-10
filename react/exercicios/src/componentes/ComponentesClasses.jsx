@@ -6,7 +6,11 @@ export default class Saudacao extends Component{
         nome: "Brenda"
     }
     setTipo(e){
-        this.setState({tipo: e.target.value})
+        let i = 1
+        setInterval(()=>{
+            this.setState({tipo: i++})
+        },1000)
+        
     }
 
     render(){
