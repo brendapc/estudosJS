@@ -6,9 +6,14 @@ import ReactDOM from 'react-dom';
 /* import BomDia from './componentes/BomDia'*/
 import Saudacao from './componentes/ComponentesClasses';
 import Pai from './componentes/Pai'
+import Filho from './componentes/Filho'
 
 ReactDOM.render(
     <div>
-        <Pai nome="Zé" sobrenome="Pereira"/>
+        <Pai nome="Zé" sobrenome="Pereira">
+            <Filho nome="Bruno " />
+            <Filho nome="Daniela " />
+            <Filho nome="Denise " />
+        </Pai>
     </div>
     , document.getElementById('root'))
