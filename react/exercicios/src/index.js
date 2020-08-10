@@ -5,6 +5,11 @@ import ReactDOM from 'react-dom';
 /* import Primeiro from './componentes/Primeiro' */
 /* import BomDia from './componentes/BomDia'*/
 
+/* no default import/export: */
+import {BoaTarde} from './componentes/MultiplosComponentes'
+/* with default: */
+import BoaTarde from './componentes/MultiplosComponentes'
+/* or  */
 import Multi from './componentes/MultiplosComponentes'
 
 ReactDOM.render(
