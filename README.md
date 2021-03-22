@@ -6,3 +6,16 @@
 - at root directories divide different subjects
 - most code can be outputted in cosole
 
+## Subjects covered:
+- Types of javascript data
+- Functions
+- Objects
+- Loops
+- DOM elements
+- Bootstrap
+- JQuery
+- CSS
+- Node
+- ReactJS
+- Webpack
+- Gulp
